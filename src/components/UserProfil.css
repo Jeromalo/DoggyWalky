@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+
+/* ---------------------------------- body ---------------------------------- */
+
+.UserProfil {
+    background: rgb(161,161,221);
+    background: linear-gradient(173deg, rgba(161,161,221,1) 23%, rgba(251,241,235,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.FontChewy {
+    font-family: 'Chewy' !important;
+}
+
+.Button-Settings-UserProfil {
+    color: black;
+}
+
+.CardContent-UserProfil {
+    padding: 5px 0px 0px 0px !important;
+}
+
+.Image-UserProfil {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px !important;
+    border-radius: 50%;
+    height: 100px !important;
+}
+
+/* --------------------------------- header --------------------------------- */
+
+.Container-BackAndProfil-UserProfil {
+    display: flex;
+    align-items: center;
+    margin:10px;
+    width: 350px;
+}
+
+.Typo-Myprofil-UserProfil {
+    color: white;
+    font-size: 25px !important;
+    margin-left: 70px !important;
+    font-family: 'Chewy' !important;
+    
+}
+
+/* ---------------------- container profil des animaux ---------------------- */
+
+.Container-DogsUserProfil {
+    border: 2px solid rgb(255, 255, 255);
+    margin: 10px auto 10px auto;
+    padding: 10px;
+    border-radius: 25px;
+    width: 355px;
+}
+
+
+.Card-ProfilDog-UserProfil {
+    padding: 6px;
+    background: white;
+    border-radius: 50px;
+    cursor: pointer;
+    border-radius: 25px !important;
+    padding: 10px 25px 10px 25px;
+}
+
+.Card-ProfilDog-UserProfil img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Container-UsersDogs-UserProfil {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.NavDogsUser-UserProfil {
+    justify-content: space-between;
+    display: flex;
+}
+
+.Button-AddDog-UserProfil {
+    background-color: #26254D !important;
+    font-family: 'Chewy' !important;
+    border-radius: 25px!important;
+    padding: 2px 6px 2px 6px !important;
+}
+
+/* ---------------------- container profil utilisateur ---------------------- */
+
+.Container-User-UserProfil {
+    width: 100%;
+    display: flex;
+    justify-content: center !important; 
+    padding: 0 0 10px 0;
+}
+
+.Card-User-UserProfil {
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 25px !important;
+    padding: 10px;
+}
+
+
+.Container-LocSettings-UserProfil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Localisation-UserProfil {
+    display: flex;
+    align-items: center;    
+}
+
+
+
+
+

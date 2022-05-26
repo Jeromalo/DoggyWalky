@@ -1,0 +1,20 @@
+.ComposantInputAdd {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+  }
+  
+  .SearbarContacts {
+  }
+  
+  .ListeContacts {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .NameContacts {
+    background-color: crimson;
+  }
+  

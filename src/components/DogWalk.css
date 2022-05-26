@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* ---------------------------------- body ---------------------------------- */
+
+.DogWalk {
+    background: rgb(161,161,221);
+    background: linear-gradient(173deg, rgba(161,161,221,1) 23%, rgba(251,241,235,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+
+/* --------------------------------- header --------------------------------- */
+
+.Container-App-DogWalk {
+    width: 355px;
+    display: flex;
+}
+
+.Container-Back-DogWalk {
+    display: flex;
+    margin: 10px;
+    justify-content: left !important;
+    width: 350px;
+}
+
+.Icon-Back-DogWalk {
+    padding: 6px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.Typo-Myprofil-DogWalk {
+    color: black;
+    font-size: 25px !important;
+    margin-left: 45px !important;
+    font-family: 'Chewy' !important;
+}
+
+/* --------------------------- container dog walk --------------------------- */
+
+.LittleCard-DogWalk {
+    margin: 20px 15px 20px 15px;
+    border-radius: 25px !important;
+    padding: 10px;
+}
+
+.TitleLittleCard-DogWalk {
+    padding: 20px 10px 10px 10px !important;
+    background: rgb(161,161,221);
+    background: linear-gradient(138deg, rgba(161,161,221,1) 23%, rgba(190,211,250,1) 57%, rgba(251,241,235,1) 100%);
+    border-radius: 25px 25px 0px 0px;
+    margin-top: -10px;
+    font-size: 20px;
+    width: 100%;
+    margin-left: -10px;
+    font-family: 'Chewy';
+    text-align: center;
+}
+
+/* -------------------------- Qui part en balade ? -------------------------- */
+
+
+.CardMedia-ImgDogUser-DogWalk {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 100px;
+    padding: 8px;
+    background: rgb(161,161,221);
+    background: linear-gradient(138deg, rgba(161,161,221,1) 23%, rgba(190,211,250,1) 57%, rgba(251,241,235,1) 100%);
+    margin: -7px auto 0 auto;
+}
+
+/* ------------------------ Sélectioner les contacts ------------------------ */
+
+
+
+.ListItem-Contact-DogWalk {
+    margin-left: -25px !important;
+}
+
+
+
+/* -------------------------- Sélectioner la durée -------------------------- */
+
+.Box-Timing-DogWalk {
+    display: flex;  
+    align-items: center;
+    margin-left: 10px;
+}
+
+.AlarmIcon-DogWalk {
+    font-size: 2em !important;
+    margin-right: 30px;
+    margin-bottom: 6px;
+}
+
+.Timer-DogWalk {
+    color: black !important;
+}
+
+/* --------------------------------- Button --------------------------------- */
+
+.Div-Button-LetsWalk-DogWalk {
+    padding-bottom: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.Button-LetsWalk-DogWalk {
+    font-size: 1.5rem !important;
+    padding: 1px 15px 1px 15px !important;
+    background: rgb(161,161,221);
+    background: linear-gradient(138deg, rgba(161,161,221,1) 23%, rgba(190,211,250,1) 57%, rgba(251,241,235,1) 100%);
+    border-radius: 50px !important;
+    color: black !important;
+    font-family: 'Chewy' !important;
+}

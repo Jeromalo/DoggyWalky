@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* ---------------------------------- body ---------------------------------- */
+
+.EditDog {
+    background: rgb(161,161,221);
+    background: linear-gradient(173deg, rgba(161,161,221,1) 23%, rgba(251,241,235,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+
+/* --------------------------------- header --------------------------------- */
+
+.Container-Back-EditDog {
+    display: flex;
+    margin: 10px;
+    justify-content: left !important;
+    width: 350px;
+}
+
+.Icon-Back-EditDog {
+    color: black;
+}
+
+.Header-Logo-EditDog img {
+    width: 100px;
+    /* display: flex; */
+    margin: -50px auto 0 130px;
+    position:absolute;
+}
+
+/* ----------- container modifier informations du profil du chien ----------- */
+
+
+.Container-Form-EditDog {
+    margin: 10px;
+    width: 365px;
+    border-radius: 25px !important;
+    background-color: white;
+    border: 2px solid #ffc331 !important;
+    text-align-last: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Title-EditDog {
+    font-family: 'Chewy';
+    text-align: center;
+    margin: 50px 10px 0px 10px;
+}
+
+
+.Card-Form-EditDog{
+    margin: 15px;
+    border-radius: 25px !important;
+    background-color: rgba(184, 184, 184, 0.129);
+    padding: 5px;
+}
+
+.Icon-AddImg-EditDog{
+    padding: 15px;
+    background-color: #ffc331;
+}
+
+.Input-FormStyle-EditDog {
+    border-radius: 50px !important;
+    width: 90% !important;
+    margin:10px !important;
+}
+
+.Button-Maj-EditDog {
+    background-color: #ffc331 !important;
+    margin: 10px auto 20px auto !important;
+    font-family: 'Chewy' !important;
+    color: black !important;
+    border-radius: 25px !important;
+}

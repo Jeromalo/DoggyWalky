@@ -1,0 +1,399 @@
+    5  git
+    6  git checkout jerome
+   16  git add 
+   17  git add script.js
+   18  git commit -m script
+   19  git push
+   23  git add script.js
+   24  git commit -m script
+   25  git push
+   26  git pull origin develop
+   27  git reset --
+   28  git pull origin develop
+   29  git checkout develop
+   30  git status
+   31  git reset --hard
+   32  git checkout develop
+   33  git status
+   34  git pull
+   35  git checkout jerome
+   36  git merge develop
+   37  git commit -m "merge develop into jerome"
+   38  git add .
+   39  git commit -m "merge develop into jerome"
+   40  git push
+   42  git checkout
+   46  git checkout
+   47  git remove --
+   48  git reset --
+   49  git merge orgin develop
+   50  git pull origin develop
+   51  git checkout
+   52  git checkout -b develop
+   53  git merge develop
+   54  git fetch --all
+   55  git pull origin develop
+   56  git reset -hard
+   57  git reset --hard
+   58  git pull origin develop
+   60  git fetch --all
+   62  git merge
+   64  git remote
+   65  git remote -v
+   66  git merge develop
+   67  git merge yoan
+   68  git merge origin yoan
+   69  git merge origin/yoan
+   71  git merge origin/develop
+   72  git reset --
+   73  git merge origin/develop
+   74  git pull origin/develop
+   75  git pull develop
+   76  git pull origin/develop
+   77  git pull origin/ludovic
+   78  git pull origin/yoan
+   79  git merge origin/yoan
+   83  git pull develop
+   84  git merge develop
+   85  git reset --
+   86  git pull develop
+   90  git add
+   91  git commit -m "préparation pull Ludo"
+   92  git add
+   93  git add .
+   94  git commit -m "préparation pull Ludo"
+   95  git pull origin/ludovic
+   96  git pull origin ludovic
+   97  git add .
+   98  git commit -m "merge fini"
+   99  git status
+  100  git push
+  104  git add .
+  105  git commit -m "Version cleanée Yoan+Ludo du 28mars"
+  106  git push
+  139  git add .
+  140  git commit -m "Mise à jour du 30 mars"
+  141  git push
+  143  git add .
+  144  git commit -m "MAJ travail du 30 mars"
+  145  git push
+  149  git add .
+  150  git commi- -m "version bouton cat cassé 31 mars"
+  151  git commit -m "version bouton cat cassé 31 mars"
+  152  git push
+  156  git add .
+  157  git commit -m "MAJ 1er avril matin"
+  158  git push
+  160  git add .
+  161  git commit -m "MAJ 1er avril"
+  162  git push
+  164  git add .
+  165  git commit -m 'MAJ 2 du 1er avril'
+  166  git push
+  168  git add .
+  169  git commit -m "MAJ 1er avril aprèsmidi"
+  170  git push
+  171  git checkout develop
+  172  git checkout jerome
+  174  git add .
+  175  git commit -m "MAJ 1er avril fin daprem"
+  176  git push
+  178  git add .
+  179  git commit -m "MAJ du 4 avril matin avec Search.js"
+  180  git push
+  181  git add . 
+  182  git commit -m "confilt ou pas ?"
+  183  git push
+  185  git add .
+  186  git commit -m "Version 5 avril"
+  187  git push
+  191  git add .
+  192  git commit -m "Barre mise à jour + cards categories CSS ok"
+  193  git push
+  195  git add .
+  196  git commit -m "MAJ"
+  197  git push
+  199  git add .
+  200  git commit -m "MAJ de 14h"
+  201  git push
+  203  git add . 
+  204  git commit -m "à faire... liste ingrédients, cards à peaufiner"
+  205  git push
+  212  echo "venv/" > .gitignore
+  263  git add .
+  264  git commit -m 'flask+react'
+  265  git push
+  266  git add .
+  267  git commit -m 'react+flask'
+  268  git push
+  269  git log
+  270  git reset --soft 52a546e925fee8c7735c433909220fa7bd76d750
+  271  git add .
+  272  git commit -m "remove node_modules"
+  273  git push
+  275  code .git
+  276  git log
+  277  git reset --soft 52a546e925fee8c7735c433909220fa7bd76d750
+  278  git status
+  279  git stash
+  280  git reset --hard 52a546e925fee8c7735c433909220fa7bd76d750
+  281  git status
+  282  git log
+  283  git reset --hard 497c888c0f671d479ad2aacd0113b6e1f49b522c
+  284  git status
+  285  git log
+  286  git add .
+  287  git reset --soft
+  288  git add .
+  289  git commit -m "no node_modules"
+  290  git diff
+  291  git diff origin
+  292  git reset --soft
+  293  git rm -r --cached
+  294  git rm -r --cached .
+  295  git status
+  296  git add .
+  297  git commit -m "remove node modules"
+  298  git push
+  299  git diff
+  300  git diff origin
+  301  git rm -r --cached node_modules
+  306  git filter-branch --tree-filter "rm -rf node_modules" --prune-empty HEAD\ngit for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d\necho node_modules/ >> .gitignore\ngit add .gitignore\ngit commit -m 'Removing node_modules from git history'\ngit gc
+  307  git filter-branch --tree-filter "rm -rf node_modules" --prune-empty HEAD\ngit for-each-ref --format="%(refname)" refs/original/ | xargs -n 1 git update-ref -d\nprintf "\nnode_modules/" >> .gitignore\ngit add .gitignore\ngit commit -m 'Removing node_modules from git history'\ngit gc
+  308  git add .
+  309  git status
+  310  git diff
+  311  git diff origin
+  312  git push
+  315  git run start-backend
+  331  git run start-backend
+  337  git add .
+  338  git commit -m "8 avril matin"
+  339  git push
+  349  git add.
+  350  git add .
+  351  git commit -m "Version FINALE"
+  352  git push
+  354  git add .
+  355  git commit -m 'Version finale V2"\n
+  356  git commit -m 'version finale V2'
+  357  git push
+  358  git checkout main
+  359  git merge jerome
+  362  git status
+  363  git push
+  456  git clone https://gitlab.matrice.io/blablapp-react-797/jaureli-blablapp-react
+  457  git clone https://github.com/Jeromalo/GreasyBar.git
+  463  git add .
+  464  git commit -m "GreasyBar"
+  465  git push
+  510  git add .
+  511  git commit -m 'portfolio_mui'
+  512  git push
+  514  git push
+  515  git branch
+  516  git clone https://github.com/Jeromalo/PortfolioMui.git
+  520  git add .
+  521  git commit -m 'first'
+  522  git push
+  527  git add .
+  528  git commit -m 'V2'
+  529  git push
+  543  git add .
+  544  git commit -m 'V3'
+  545  git push
+  552  git --version
+  560  git clone https://gitlab.matrice.io/blablapp-react-797/jaureli-blablapp-react.git
+  562  git clone https://gitlab.matrice.io/blablapp-react-797/jaureli-blablapp-react.git
+  563  git checkout Jerome
+  600  git checkout main
+  603  git clone https://gitlab.matrice.io/blablapp-react-797/jaureli-blablapp-react
+  629  git add .
+  630  git commit -m 'Installation React/Mui/DOM"\n
+  631  git add .
+  632  git commit -m 'Installation React Mui Dom"\nquote ?\n
+  633  git add
+  634  git add .
+  635  git commit 
+  636  git add .
+  637  git commit -m "React Mui Dom"
+  638  git push
+  639  git checkout developpement
+  640  git checkout
+  641  git checkout development
+  642  git checkout develop
+  643  git add .
+  644  git checkout jerome
+  645  git checkout Jerome
+  646  git checkout main
+  650  git checkout main
+  651  git add .
+  652  git commit -m "React Mui Dom Gitignore"
+  653  git checkout develop
+  654  git pull main
+  655  git pull
+  656  git checkout jerome
+  657  git checkout Jerome
+  658  git merge master
+  659  git merge main
+  661  git add .
+  662  git commit -m "reprise du main"
+  663  git push
+  665  git checkout main
+  666  git checkout Jerome
+  667  git pull
+  668  git checkout main
+  669  git checkout develop
+  670  git checkout Jerome
+  683  git clone https://gitlab.matrice.io/solivera/test-technique-movies-correction.git
+  696  git add .
+  697  git commit -m 'ajout cards skills'
+  698  git push
+  708  git clone https://github.com/Jeromalo/Business-Unit.git
+  712  git add .
+  713  git commit -m 'pdf'
+  714  git push
+  721  echo "venv/" > .gitignore
+  831  git status
+  832  git remove node_modules
+  833  git rm node_modules
+  834  git rm */node_modules
+  835  git rm ./*/node_modules
+  836  git rm -r ./*/node_modules
+  837  git rm -r ./node_modules
+  839  git rm -r ../node_modules
+  841  git rm -rf ./node_modules
+  842  git status
+  843  git add .
+  844  git status
+  845  git rm -r --cached node_modules
+  846  git rm -r --cached ./node_modules
+  848  git rm -r --cached node_modules
+  849  git add .
+  850  git commit -m "test node modules ?"
+  851  git push
+  856  rm -rf jaureli-blablapp-react-backup/.git
+  858  git reset --hard
+  859  git pull -f
+  860  git reset
+  861  git status
+  862  git reset HEAD^
+  863  git status
+  864  git add .
+  865  git commit -m "head reset"
+  866  git push
+  867  git status
+  868  git revert
+  869  git reset --soft HEAD~1
+  870  git status
+  871  git add .
+  872  git commit -m "removed nodemodules"
+  873  git push
+  874  git status
+  875  git checkout develop
+  876  git pull
+  877  git merge Jerome
+  878  git status
+  879  git push
+  880  git checkout Jerome
+  881  git add .
+  882  git commit -m 'aucun changement particulier'
+  883  git push
+  920  git fetch
+  921  git merge origin/ludovic
+  922  git add .
+  923  git commit -m 'avant merge'
+  924  git push
+  925  git checkout develop
+  926  git checkout Jerome
+  927  git fetch
+  928  git checkout develop
+  929  git checkout Jerome
+  930  git pull origin develop
+  931  git add .
+  932  git commit -m 'Modification de Develop'
+  933  git push
+  934  git fetch
+  935  git checkout develop
+  936  git pull origin Jerome
+  937  git add .
+  938  git commit -m 'Changements Ludo + Jerome'
+  939  git push
+  940  git checkout Jerome
+  941  git pull origin develop
+  987  git add .
+  988  git commit -m 'signup back OK'
+  989  git push
+  998  git checkout develop
+  999  git pull origin Jerome
+ 1000  git add .
+ 1001  git commit -m 'Back Ludo+Jerome'
+ 1002  git push
+ 1003  git checkout Jerome
+ 1007  git fetch
+ 1008  git pull develop
+ 1009  git pull origin develop
+ 1011  git checkout develop
+ 1025  git checkout ludovic
+ 1026  git checkout main
+ 1027  git add .
+ 1028  git commit -m 'Rien de particulier'
+ 1029  git push
+ 1030  git checkout develop
+ 1031  git checkout ludovic
+ 1032  git checkout jerome
+ 1033  git checkout Jerome
+ 1034  git fetch
+ 1035  git checkout main
+ 1036  git checkout ludovic
+ 1037  git checkout main
+ 1038  git checkout Jerome
+ 1039  git checkout main
+ 1040  git checkout develop
+ 1041  git checkout main
+ 1042  git checkout Jerome
+ 1043  git checkout main
+ 1044  git checkout develop
+ 1046  git checkout main
+ 1047  git checkout ludovic
+ 1048  git pull
+ 1049  git checkout Jerome
+ 1050  git fetch
+ 1051  git pull
+ 1052  git fetch
+ 1053  git merge ludovic
+ 1061  git add .
+ 1062  git commit -m "merge avec ludo"
+ 1063  git push
+ 1064  git checkout develop
+ 1065  git pull
+ 1066  git merge Jerome
+ 1071  git fetch
+ 1072  git add .
+ 1073  git commit -m 'develop ok?'
+ 1074  git push
+ 1075  git checkout main
+ 1076  git checkout Jerome
+ 1077  git fetch
+ 1078  git checkout ludovic
+ 1079  git checkout khaled
+ 1080  git checkout ann-lise
+ 1081  git checkout origin ann-lise
+ 1082  git checkout Jerome
+ 1083  git checkout origin ann-lise
+ 1087  git fetch
+ 1088  git merge origin Khaled
+ 1089  git merge origin khaled
+ 1092  git pull khaled
+ 1093  git fetch
+ 1094  git add/rm <fichier>
+ 1095  git checkout khaled
+ 1096  git merge
+ 1097  git add .
+ 1098  git commit -m "merge conflit résolu ?"
+ 1099  git push
+ 1100  git fetch
+ 1101  git merge origin khaled
+ 1102  gitk --all
+ 1103  git --all
+ 1114  git status

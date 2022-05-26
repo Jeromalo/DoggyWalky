@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* ---------------------------------- body ---------------------------------- */
+
+.Login {
+
+    background: rgb(161,161,221);
+    background: linear-gradient(173deg, rgba(161,161,221,1) 23%, rgba(251,241,235,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: auto;
+    /* font-size: calc(10px + 2vmin); */
+}
+
+
+
+
+
+/* --------------------------------- header --------------------------------- */
+
+.ButtonReturn {
+    display: flex;
+    /* justify-content: center; */
+    margin: 10px;
+    flex-direction: row;
+}
+
+
+.HeaderLogo-Login img {
+    width: 100px;
+    display: flex;
+    margin: -50px auto 0 130px;
+    position:absolute;
+
+}
+
+
+
+.FormLogin {
+    margin: 50px;
+    width: 365px;
+    border-radius: 25px !important;
+    background-color: white;
+    border: 2px solid #ffc331 !important;
+    text-align-last: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.LoginTitle {
+    font-family: 'Chewy';
+    text-align: center;
+    margin-top: 50px;
+}
+.LoginText {
+    font-family: 'Roboto';
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    margin-left: 10px;
+    font-weight: lighter;
+}
+
+.LoginText2 {
+    font-family: 'Roboto';
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    margin: 20px 10px 30px 10px;
+    font-weight: lighter;
+    font-size: 18px;
+}
+
+.loginCompteText{
+    color: #db4319;
+}
+
+
+.CheckBoxRGPD{
+    margin: 0 0 0 20px;
+    font-size: 10px !important; 
+}
+
+.FormStyleLogin {
+    border-radius: 25px !important;
+    width: 90% !important;
+    margin:10px !important;
+}
+
+.ButtonLogin {
+    background-color: #ffc331 !important;
+    margin: 50px auto 20px auto !important;
+    font-family: 'Chewy' !important;
+    color: black !important;
+    border-radius: 25px !important;
+}
+
+
+
+
+
+/* --------------------------------- header --------------------------------- */
+
+.ButtonReturn {
+    display: flex;
+    /* justify-content: center; */
+    margin: 10px;
+    flex-direction: row;
+}
+
+
+.HeaderLogo img {
+    width: 100px;
+    display: flex;
+    margin: -50px auto 0 130px;
+    position:absolute;
+
+}
+
+
+
+.FormSignUp {
+    margin: 10px;
+    width: 365px;
+    border-radius: 25px !important;
+    background-color: white;
+    border: 2px solid #ffc331 !important;
+    text-align-last: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.SignUpTitle {
+    font-family: 'Chewy';
+    text-align: center;
+    margin-top: 50px;
+}
+.SignUpText {
+    font-family: 'Roboto';
+    text-align: left;
+    justify-content: left;
+    display: flex;
+    margin: 0 0 -30px 20px;
+    font-weight: lighter;
+}
+
+.CheckBoxRGPD{
+    margin: 0 0 0 20px;
+    font-size: 10px !important; 
+}
+
+.FormStyleSignUp {
+    border-radius: 25px !important;
+    width: 90% !important;
+    margin:10px !important;
+}
+
+.ButtonSignUp {
+    background-color: #ffc331 !important;
+    margin: 10px auto 20px auto !important;
+    font-family: 'Chewy' !important;
+    color: black !important;
+    border-radius: 25px !important;
+}

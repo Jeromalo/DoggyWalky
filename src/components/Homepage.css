@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* ---------------------------------- body ---------------------------------- */
+
+.Homepage {
+    background: rgb(161,161,221);
+    background: linear-gradient(173deg, rgba(161,161,221,1) 23%, rgba(251,241,235,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    /* height: 100% !important; */
+}
+
+/* --------------------------------- header --------------------------------- */
+
+.NavBar-LogoProfil-Homepage {
+    /* width: 95%; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px !important;
+    width: 330px !important;
+
+}
+
+.Logo-Homepage {
+    height: 60px;
+}
+
+.Button-AvatarProfilUser-Homepage {
+    padding: 5px;
+    background-color: #ffc331 !important;
+    border-radius: 50px;
+}
+
+/* ------------------------------ Container main ----------------------------- */
+
+.Shadow-Homepage {
+    margin: 5px 10px 10px 10px;
+    width: 350px;
+    border-radius: 25px !important;
+    background-color: white;
+    text-align-last: center;
+    height: 75vh !important;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.Container-Test-Homepage {
+    margin-bottom: 15px;
+    overflow: scroll;
+    display: grid;
+    justify-items: center;
+    height: 85%;
+}
+
+.Typo-ListConv-Homepage{
+    color: black;
+    font-size: 25px !important;
+    font-family: 'Chewy' !important;
+    justify-self: left;
+    margin-left: 10px !important;
+}
+
+.Box-Search-Homepage {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.StyledInputBase-SearchConversation-Homepage {
+    background-color:#EDEDED;
+    border-radius: 50px;
+    text-align-last: left;
+    padding: 0px;
+}
+
+.Button-CreationGroup-Homepage {
+    padding: 5px;
+    background-color: #ffc331;
+    border-radius: 50px;
+}
+
+/* -------------------------------------------------------------------------- */
+
+/* .List-AllConversations-Homepage {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    overflow: scroll;
+    height: 70vh !important; 
+    height: 85%;
+    border-radius: 25px;
+} */
+
+.ListItem-Conversation-Homepage {
+    border-radius: 25px;
+    background-color:#EDEDED;
+    margin-bottom: 5px;
+    width: 98% !important;
+    margin-left: auto;
+    margin-right: auto;
+    height: max-content;
+
+}
+
+.ListItemText-NameGroup-Homepage {
+    text-align-last: left;
+}
+
+
+/* ----------------------- Boutton "Partons en balade" ---------------------- */
+
+.Container-FooterBar-Homepage {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+.Button-LetsWalk {
+    color: black;
+    width: 60px !important;
+    height: 60px !important;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+
+}
+
+.Button-Contacts-Homepage {
+    color: black;
+    width: 35px !important;
+    height: 35px !important;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.Button-Exit-Homepage {
+    color: black;
+    width: 35px !important;
+    height: 35px !important;
+    padding: 5px;
+    background-color: white;
+    border-radius: 50px;
+}
+

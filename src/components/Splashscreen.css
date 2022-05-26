@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+
+.Splashscreen {
+  background: rgb(161, 161, 221);
+  background: linear-gradient(
+    173deg,
+    rgba(161, 161, 221, 1) 23%,
+    rgba(251, 241, 235, 1) 100%
+  );
+  min-height: 100vh;
+
+  /* font-size: calc(10px + 2vmin); */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 100vh;
+}

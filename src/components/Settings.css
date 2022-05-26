@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+/* --------------------------------- header --------------------------------- */
+
+.ButtonReturn {
+  display: flex;
+  /* justify-content: center; */
+  margin: 10px;
+  flex-direction: row;
+}
+
+.HeaderLogo img {
+  width: 100px;
+  display: flex;
+  margin: -50px auto 0 130px;
+  position: absolute;
+}
+
+.FormSettings {
+  margin: 10px;
+  width: 365px;
+  border-radius: 25px !important;
+  background-color: white;
+  border: 2px solid #ffc331 !important;
+  text-align-last: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.FontTitleSettings {
+  font-family: "Chewy";
+  text-align: center;
+}
+
+.ButtonSettings {
+  background-color: #ffc331 !important;
+  margin: 10px auto 20px auto !important;
+  font-family: "Chewy" !important;
+  color: black !important;
+  border-radius: 25px !important;
+}
+
+.FontSettings {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-evenly !important;
+  font-family: "roboto" !important;
+  color: black !important;
+  font-size: 15px;
+}
+.FontLinkSettings {
+  display: flex !important;
+  flex-direction: column !important;
+  color: #ff5f00 !important;
+  font-family: "roboto" !important;
+  font-size: 12px;
+}
+/* ---------------------------------- body ---------------------------------- */
+
+.Settings {
+  background: rgb(161, 161, 221);
+  background: linear-gradient(
+    173deg,
+    rgba(161, 161, 221, 1) 23%,
+    rgba(251, 241, 235, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* font-size: calc(10px + 2vmin); */
+}

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+/* ---------------------------------- body ---------------------------------- */
+
+.Chat {
+    background: rgb(161,161,221);
+    background: linear-gradient(173deg, rgba(161,161,221,1) 23%, rgba(251,241,235,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    /* height: 100% !important; */
+}
+.Container-Chat {
+    /* background-color: aqua !important; */
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px !important;
+}
+
+.Grid-NameContact-Chat {
+    display: flex;
+    align-items: center;
+    padding-left: 15px !important;
+    
+}
+
+.Container-MessageTextSend-Chat {
+    background-color: #FFD160;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.Container-MessageTextRecipe-Chat {
+    background-color:#F0EFEF !important;
+    border-radius: 25px; 
+    padding: 5px 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+
+}
+
+
+.List-ZoneChat-Chat{
+    height: 75vh;
+    overflow: scroll;
+}
+
+.Grid-EnterYourText-Chat {
+    position:absolute;
+    bottom:0;
+    width: 350px !important;
+
+
+}
+
+.Grid-SuperFlex-Chat {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ListItem-ZoneName-Chat {
+    color: rgba(0, 0, 0, 0.334) !important;
+}
+
